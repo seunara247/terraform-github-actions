@@ -1,3 +1,7 @@
+# TERRAFORM CI/CD PIPELINE: DEPLOYING EC2 AND S3 ON AWS WITH GITHUB ACTIONS
+
+This project demonstrates a CI/CD pipeline using **Terraform** and **GitHub Actions** to automate the provisioning of AWS resources. It deploys an **S3 Bucket** and a **t2.micro EC2 instance** in the **us-east-1** region, with outputs for the bucket name and instance public IP. The workflow runs terraform fmt, init, validate, plan and apply. It also uses Github secretgs for secure credentials management.:wq
+
 ## What is CI/CD & GitHub Actions?
 
 ### CI/CD
@@ -36,4 +40,3 @@
 ## Screenshots:
 
 - Take screenshots of your GitHub Actions run showing colour green tick and copy the EC2 public IP or S3 bucket ID output.
-
