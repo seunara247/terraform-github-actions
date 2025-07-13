@@ -1,6 +1,6 @@
-###What is CI/CD & GitHub Actions?
-
 This project sets up a CI/CD pipeline using **Terraform** and **GitHub Actions** to automate **AWS** resource provisioning. It deploys an **S3 bucket** and a **t2.micro EC2 instance** in the **us-east-1** region. The workflow runs **terraform fmt**, **init**, **validate**, **plan**, and **apply**, and uses GitHub Secrets for secure credentials management. Outputs include the bucket name and the EC2 public IP.
+
+### What is CI/CD & GitHub Actions?
 
 #### What is CI/CD?
 
