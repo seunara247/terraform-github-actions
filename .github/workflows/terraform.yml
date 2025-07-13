@@ -26,22 +26,22 @@ jobs:
 
             - name: Terraform Init
               run: terraform init
-              working-directory: ./Terraform-cicd
+              working-directory: ./TERRAFORM-CICD
             
             - name: Terraform Validate
               run: terraform validate
-              working-directory: ./Terraform-cicd
+              working-directory: ./TERRAFORM-CICD
 
             - name: Terraform Format
               run: terraform fmt -recursive
-              working-directory: ./Terraform-cicd
+              working-directory: ./TERRAFORM-CICD
 
             - name: Terraform Plan
               run: terraform plan
-              working-directory: ./Terraform-cicd
+              working-directory: ./TERRAFORM-CICD
              
             - name: Terraform Apply
               run: terraform apply -auto-approve
-              working-directory: ./Terraform-cicd
+              working-directory: ./TERRAFORM-CICD
              
             
