@@ -26,22 +26,22 @@ jobs:
 
             - name: Terraform Init
               run: terraform init
-              directory: ./Terraform
+              working-directory: ./Terraform
             
             - name: Terraform Validate
               run: terraform validate
-              directory: ./Terraform
+              working-directory: ./Terraform
 
             - name: Terraform Format
               run: terraform fmt -recursive
-              working-directory: ./terraform
+              working-directory: ./Terraform
 
             - name: Terraform Plan
               run: terraform plan
-              working-directory: ./terraform
+              working-directory: ./Terraform
              
             - name: Terraform Apply
               run: terraform apply -auto-approve
-              working-directory: ./terraform
+              working-directory: ./Terraform
              
             
