@@ -14,7 +14,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "my-tf-backend-bucket"
+    bucket = "my-backend-file"
     key    = "terraform-cicd.tfstate"
     region = "us-east-1"
   }
