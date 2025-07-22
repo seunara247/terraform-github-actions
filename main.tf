@@ -5,17 +5,6 @@ resource "aws_instance" "my-special-aws-instance" {
 resource "aws_s3_bucket" "my-special-aws-bucket" {
   bucket = var.bucket_name
 }
-terraform {
-  backend "s3" {
-    bucket = "terraform-backend-bucket"
-    key = "terraform.tfstate"  
-  }
-}
 
-terraform {
-  backend "s3" {
-    bucket = "my-backend-file"
-    key    = "terraform-cicd.tfstate"
-    region = "us-east-1"
-  }
-}
+
+
