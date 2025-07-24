@@ -41,9 +41,10 @@ GitHub Actions lets us run these steps automatically whenever code changes. This
 - Take screenshots of your GitHub Actions run showing green tick and copy the EC2 public IP or S3 bucket ID output.
 
 ### Note:
-- if you will be using a stateless file ensure to create it before hand
+- If you will be using a stateless file ensure to create it before hand
+- For your instance make sure to create a vpc before hand
 - Ensure to use a unique name for your S3 bucket so as not to have issues when deploying
-- Each AMI has its own name ensure to use the correct one
+- Each AMI has its own numbers ensure to use the correct one
 - crosscheck your codes thoroughly when you are done
 
 
