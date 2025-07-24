@@ -1,5 +1,5 @@
 output "bucket_name" {
-    value = aws_s3_bucket.my-special-aws-bucket.id
+    value =aws_s3_bucket.m4ace-plenty-practical-stuff.id
 }
 
 output "ec2-public-ip" {
