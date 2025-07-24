@@ -6,7 +6,7 @@ This project sets up a CI/CD pipeline using **Terraform** and **GitHub Actions**
 
 CI/CD is a way to automatically test, plan, and apply changes to infrastructure (like deploying a server).
 
-- Continuous Integration (CI): Everytime a developer pushews codes (like terraform0 the system automatically checks it.
+- Continuous Integration (CI): Everytime a developer pushews codes (like terraform the system automatically checks it).
 
 - Continuous Delivery (CD): Once the code passes all tests, it is automatically prepared for deployment.
 
@@ -39,3 +39,11 @@ GitHub Actions lets us run these steps automatically whenever code changes. This
 ### Screenshots:
 
 - Take screenshots of your GitHub Actions run showing green tick and copy the EC2 public IP or S3 bucket ID output.
+
+### Note:
+- if you will be using a stateless file ensure to create it before hand
+- Ensure to use a unique name for your S3 bucket so as not to have issues when deploying
+- Each AMI has its own name ensure to use the correct one
+- crosscheck your codes thoroughly when you are done
+
+
